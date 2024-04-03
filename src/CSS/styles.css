@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#navbar{
+    background-color: cornflowerblue;
+    padding: 20px;
+    color: white;
+}
+
+#content>li{
+    color: blue;
+}
+
+#content a:hover{
+    border: 2px solid white;
+    color: red;
+}
+
+
+#\#customer{
+    width: 639px;
+    height: 83px;
+    border: 2px solid red;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 43px;
+    padding: 8px;
+    border-radius: 35px;
+}
+.tableHead{
+    border: 2px solid red;
+    text-align: center;
+}
+
+.oderfeilds{
+    font-size: 30px;
+}
+
+@media (max-width: 778px) {
+    #\#customer{
+        width: 504px;
+        height: 83px;
+        border: 2px solid red;
+        text-align: center;
+        color: white;
+        background-color: red;
+        font-size: 43px;
+        padding: 8px;
+        border-radius: 35px;
+    }
+}
